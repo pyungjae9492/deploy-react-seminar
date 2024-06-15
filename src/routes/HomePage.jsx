@@ -11,6 +11,8 @@ const HomePage = () => {
   const [searchTags, setSearchTags] = useState([]);
   const [searchValue, setSearchValue] = useState("");
 
+  /** */
+
   // 처음 한 번만 실행
   // 작성했던 getPosts()를 호출한 후, setPostList를 통해 postList에 저장
   useEffect(() => {
